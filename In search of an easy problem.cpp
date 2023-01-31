@@ -80,6 +80,6 @@ for (int i = 0; i < n; ++i)
 {
     if(a[i]==1) c=false;
 }
-if(c) cout << "HARD";
+if(!c) cout << "HARD";
 else cout << "EASY";
 }
